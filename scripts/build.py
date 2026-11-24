@@ -143,19 +143,34 @@ def header():
 
 
 # ---------------------------------------------------------------- neofetch
-CHIP = r"""
-      ║ ║ ║ ║ ║ ║ ║ ║
-    ╔═╧═╧═╧═╧═╧═╧═╧═╧═╗
-  ══╡                 ╞══
-  ══╡   ┌─────────┐   ╞══
-  ══╡   │   TCR   │   ╞══
-  ══╡   │  UEFS   │   ╞══
-  ══╡   │  ECOMP  │   ╞══
-  ══╡   └─────────┘   ╞══
-  ══╡ ●     2025      ╞══
-    ╚═╤═╤═╤═╤═╤═╤═╤═╤═╝
-      ║ ║ ║ ║ ║ ║ ║ ║
-""".strip("\n").split("\n")
+def chip(cx, cy, size=176, pins=8, pitch=18, pin_len=16, pin_w=8):
+    """Chip QFP desenhado com formas SVG (não depende de fonte); pinos acendem em sequência."""
+    half = size / 2
+    x0, y0 = cx - half, cy - half
+    out = []
+    start = -(pins - 1) * pitch / 2
+    n = 0
+    for side in ("top", "right", "bottom", "left"):
+        for i in range(pins):
+            off = start + i * pitch
+            if side == "top":
+                x, y, w, h = cx + off - pin_w / 2, y0 - pin_len, pin_w, pin_len
+            elif side == "bottom":
+                x, y, w, h = cx - off - pin_w / 2, y0 + size, pin_w, pin_len
+            elif side == "right":
+                x, y, w, h = x0 + size, cy + off - pin_w / 2, pin_len, pin_w
+            else:
+                x, y, w, h = x0 - pin_len, cy - off - pin_w / 2, pin_len, pin_w
+            out.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{w}" height="{h}" rx="1.5" fill="{GREEN}" opacity="0.35">'
+                       f'<animate attributeName="opacity" values="1;0.35;0.35" keyTimes="0;0.13;1" dur="3.84s" begin="{n*0.12:.2f}s" repeatCount="indefinite"/></rect>')
+            n += 1
+    out.append(f'<rect x="{x0}" y="{y0}" width="{size}" height="{size}" rx="10" fill="{GRID}" stroke="{GREEN}" stroke-width="2"/>')
+    out.append(f'<rect x="{x0+30}" y="{y0+30}" width="{size-60}" height="{size-60}" rx="4" fill="none" stroke="{GREEN}" stroke-opacity="0.6" stroke-dasharray="4 3"/>')
+    out.append(f'<circle cx="{x0+16}" cy="{y0+size-16}" r="5" fill="{GREEN}"/>')
+    for dy, txt, fsz, wgt in ((-14, "TCR", 22, 700), (10, "UEFS", 14, 400), (28, "ECOMP", 14, 400)):
+        out.append(f'<text x="{cx}" y="{cy+dy}" text-anchor="middle" font-family="{MONO}" font-size="{fsz}" font-weight="{wgt}" fill="{GREEN}">{txt}</text>')
+    out.append(f'<text x="{cx}" y="{y0+size-12}" text-anchor="middle" font-family="{MONO}" font-size="11" fill="{MUTED}">2025</text>')
+    return "\n".join(out)
 
 
 def neofetch(s):
@@ -183,9 +198,7 @@ def neofetch(s):
     ]
     h = 70 + len(info) * lh + 40
     body = []
-    chip_y = 70 + (len(info) * lh - len(CHIP) * lh) / 2
-    for i, line in enumerate(CHIP):
-        body.append(f'<text x="65" y="{chip_y + i*lh:.0f}" xml:space="preserve" font-family="{MONO}" font-size="{fs}" fill="{GREEN}">{escape(line)}</text>')
+    body.append(chip(185, 70 - 15 + len(info) * lh / 2))
     x = 380
     for i, (k, v) in enumerate(info):
         y = 70 + i * lh

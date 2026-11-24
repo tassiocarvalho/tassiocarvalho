@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="506" viewBox="0 0 1000 506" role="img" aria-label="tassio@github: ~ $ neofetch">
+<title>tassio@github: ~ $ neofetch</title>
+<defs>
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M20 0H0V20" fill="none" stroke="#161b22" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect x="0.5" y="0.5" width="999" height="505" rx="12" fill="#0d1117" stroke="#30363d"/>
+<rect x="1" y="1" width="998" height="504" rx="12" fill="url(#grid)" opacity="0.9"/>
+<circle cx="22" cy="20" r="5.5" fill="#ff7b72"/><circle cx="40" cy="20" r="5.5" fill="#e3b341"/><circle cx="58" cy="20" r="5.5" fill="#3fb950"/>
+<text x="500.0" y="24" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#8b949e">tassio@github: ~ $ neofetch</text>
+<text x="65" y="147" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">      ║ ║ ║ ║ ║ ║ ║ ║</text>
+<text x="65" y="169" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">    ╔═╧═╧═╧═╧═╧═╧═╧═╧═╗</text>
+<text x="65" y="191" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">  ══╡                 ╞══</text>
+<text x="65" y="213" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">  ══╡   ┌─────────┐   ╞══</text>
+<text x="65" y="235" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">  ══╡   │   TCR   │   ╞══</text>
+<text x="65" y="257" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">  ══╡   │  UEFS   │   ╞══</text>
+<text x="65" y="279" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">  ══╡   │  ECOMP  │   ╞══</text>
+<text x="65" y="301" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">  ══╡   └─────────┘   ╞══</text>
+<text x="65" y="323" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">  ══╡ ●     2025      ╞══</text>
+<text x="65" y="345" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">    ╚═╤═╤═╤═╤═╤═╤═╤═╤═╝</text>
+<text x="65" y="367" xml:space="preserve" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#3fb950">      ║ ║ ║ ║ ║ ║ ║ ║</text>
+<text x="380" y="70" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="15.5" font-weight="700"><tspan fill="#3fb950">tassio</tspan><tspan fill="#e6edf3">@</tspan><tspan fill="#3fb950">github</tspan></text>
+<line x1="380" y1="87" x2="960" y2="87" stroke="#30363d" stroke-dasharray="3 3"/>
+<text x="380" y="114" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">OS</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">Engenharia de Computação · UEFS (2025)</tspan></text>
+<text x="380" y="136" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Host</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">Bahia, Brasil</tspan></text>
+<text x="380" y="158" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Uptime</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">5.2 anos no GitHub</tspan></text>
+<text x="380" y="180" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Kernel</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">Back-end · Node.js / TypeScript / NestJS</tspan></text>
+<text x="380" y="202" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Packages</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">49 repositórios públicos</tspan></text>
+<text x="380" y="224" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Shell</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">Bash · PowerShell</tspan></text>
+<text x="380" y="246" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Langs</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">TypeScript · JavaScript · Python · C/C++ · Delphi</tspan></text>
+<text x="380" y="268" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Data</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">PostgreSQL · MySQL · Firebird · SQL Server</tspan></text>
+<text x="380" y="290" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">HDL</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">Verilog · SystemVerilog · UVM · Cadence Genus/Xcelium</tspan></text>
+<text x="380" y="312" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Embedded</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">ESP32 · ESP8266 · Arduino · Raspberry Pi</tspan></text>
+<text x="380" y="334" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Cloud</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">AWS EC2 · Docker · GitHub Actions</tspan></text>
+<text x="380" y="356" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Idiomas</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">Português (nativo) · Inglês (intermediário)</tspan></text>
+<text x="380" y="400" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" font-weight="700" fill="#3fb950">— GitHub Stats —</text>
+<line x1="380" y1="417" x2="960" y2="417" stroke="#30363d" stroke-dasharray="3 3"/>
+<text x="380" y="444" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#e6edf3">Repos 49  ·  Stars 9  ·  Commits 1.507  ·  Followers 16</text>
+<rect x="380" y="464" width="26" height="14" rx="2" fill="#ff7b72"/>
+<rect x="410" y="464" width="26" height="14" rx="2" fill="#ffa657"/>
+<rect x="440" y="464" width="26" height="14" rx="2" fill="#e3b341"/>
+<rect x="470" y="464" width="26" height="14" rx="2" fill="#3fb950"/>
+<rect x="500" y="464" width="26" height="14" rx="2" fill="#58a6ff"/>
+<rect x="530" y="464" width="26" height="14" rx="2" fill="#d2a8ff"/>
+<rect x="560" y="464" width="26" height="14" rx="2" fill="#f778ba"/>
+<rect x="590" y="464" width="26" height="14" rx="2" fill="#e6edf3"/>
+<text x="960" y="476" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="11" fill="#8b949e">atualizado em 24/11/2026</text>
+</svg>

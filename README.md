@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/neofetch.svg" alt="Cartão estilo neofetch com formação, stack e estatísticas do GitHub" width="100%"/>
+  <img src="assets/about.svg" alt="Cartão estilo neofetch com formação, stack e estatísticas do GitHub" width="100%"/>
 </p>
 
 ## 🚀 Projetos em destaque

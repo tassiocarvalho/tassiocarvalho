@@ -217,7 +217,7 @@ def neofetch(s):
         body.append(f'<rect x="{x + i*30}" y="{h-42}" width="26" height="14" rx="2" fill="{c}"/>')
     today = datetime.now(timezone.utc).strftime("%d/%m/%Y")
     body.append(f'<text x="{w-40}" y="{h-30}" text-anchor="end" font-family="{MONO}" font-size="11" fill="{MUTED}">atualizado em {today}</text>')
-    write("neofetch.svg", frame(w, h, "tassio@github: ~ $ neofetch", "\n".join(body)))
+    write("about.svg", frame(w, h, "tassio@github: ~ $ neofetch", "\n".join(body)))
 
 
 # ---------------------------------------------------------------- cartões de projeto

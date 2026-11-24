@@ -39,7 +39,6 @@
   <img src="https://img.shields.io/badge/SystemVerilog-UVM-8957e5?style=flat-square" alt="SystemVerilog UVM"/>
   <img src="https://img.shields.io/badge/Cadence-Genus%20%C2%B7%20Xcelium-8957e5?style=flat-square" alt="Cadence"/>
   <img src="https://img.shields.io/badge/ESP32%20%C2%B7%20ESP8266-firmware-e7352c?style=flat-square" alt="ESP32"/>
-  <img src="https://img.shields.io/badge/Delphi-ERP-ee1f35?style=flat-square" alt="Delphi"/>
 </p>
 
 ## 📡 Agora
@@ -54,7 +53,6 @@
 
 | Quando | Onde | O quê |
 |---|---|---|
-| 2025–2026 | 3Soft Sistemas | ERP em Delphi + Firebird, NF-e da Reforma Tributária, ACBr, otimização de SQL |
 | 2025 | Residência em CI Digital | RTL em Verilog, síntese no Cadence Genus, baixo consumo com clock gating |
 | 2024–2025 | UEFS (iniciação científica) | VANT com peças impressas em 3D, firmware ESP8266/ESP32 |
 | 2019–2025 | UEFS | Bacharelado em Engenharia de Computação |

@@ -36,7 +36,7 @@
 <text x="380" y="356" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5"><tspan fill="#ffa657" font-weight="700">Idiomas</tspan><tspan fill="#8b949e">: </tspan><tspan fill="#e6edf3">Português (nativo) · Inglês (intermediário)</tspan></text>
 <text x="380" y="400" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" font-weight="700" fill="#3fb950">— GitHub Stats —</text>
 <line x1="380" y1="417" x2="960" y2="417" stroke="#30363d" stroke-dasharray="3 3"/>
-<text x="380" y="444" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#e6edf3">Repos 49  ·  Stars 9  ·  Commits 1.507  ·  Followers 16</text>
+<text x="380" y="444" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="14.5" fill="#e6edf3">Repos 49  ·  Stars 9  ·  Commits 1.295  ·  Followers 16</text>
 <rect x="380" y="464" width="26" height="14" rx="2" fill="#ff7b72"/>
 <rect x="410" y="464" width="26" height="14" rx="2" fill="#ffa657"/>
 <rect x="440" y="464" width="26" height="14" rx="2" fill="#e3b341"/>
